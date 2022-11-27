@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1c40f;
+    font-family: Courier New, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    gap: 25px;
+    padding: 20px;
+    /* width: 100%; */
+}
+
+.draggable, .droptarget {
+    border: 10px solid white;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.droptarget {
+    border-style: dashed;
+}
+
+.droptarget:hover {
+    background-color: hsl(48, 89%, 70%);
+}
+
+.one {
+    background-color: #f15e0f;
+}
+
+.two {
+    background-color: #a532f1;
+}
+
+.three {
+    background-color: #2274a5;
+    /* margin-right: 20px; */
+}
