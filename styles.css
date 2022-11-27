@@ -29,7 +29,7 @@ body {
     border-style: dashed;
 }
 
-.droptarget:hover {
+.droptarget.hover {
     background-color: hsl(48, 89%, 70%);
 }
 
